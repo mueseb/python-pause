@@ -36,7 +36,7 @@ from time import sleep
 if sys.version_info[0] >= 3:
             from datetime import timezone
 
-def until(time: datetime | float) -> None:
+def until(time) -> None:
     """
     Pause your program until a specific end time.
     'time' is either a valid datetime object or unix timestamp in seconds (i.e. seconds since Unix epoch)
